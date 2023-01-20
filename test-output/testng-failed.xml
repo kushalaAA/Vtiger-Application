@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.Vtiger.genericUtility.ListnersImplementationClass"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.Vtiger.organizationTest.CreateOrgUsingBaseClassTest">
+        <methods>
+          <include name="disconnectDB"/>
+          <include name="creatOrg"/>
+          <include name="configBM"/>
+          <include name="confiAM"/>
+          <include name="configAC"/>
+          <include name="configBC"/>
+          <include name="configDB"/>
+        </methods>
+      </class> <!-- com.Vtiger.organizationTest.CreateOrgUsingBaseClassTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

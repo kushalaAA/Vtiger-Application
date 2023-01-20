@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="8" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-16T17:15:58 IST" name="Suite" finished-at="2023-01-16T17:15:58 IST" duration-ms="44">
+    <groups>
+      <group name="regression">
+        <method signature="TestScript_01.script02()[pri:0, instance:practice.TestScript_01@67c33749]" name="script02" class="practice.TestScript_01"/>
+        <method signature="TestScript_02.script03()[pri:0, instance:practice.TestScript_02@57d7f8ca]" name="script03" class="practice.TestScript_02"/>
+        <method signature="TestScript_02.script04()[pri:0, instance:practice.TestScript_02@57d7f8ca]" name="script04" class="practice.TestScript_02"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="TestScript_01.script02()[pri:0, instance:practice.TestScript_01@67c33749]" name="script02" class="practice.TestScript_01"/>
+        <method signature="TestScript_02.script03()[pri:0, instance:practice.TestScript_02@57d7f8ca]" name="script03" class="practice.TestScript_02"/>
+        <method signature="TestScript_02.script04()[pri:0, instance:practice.TestScript_02@57d7f8ca]" name="script04" class="practice.TestScript_02"/>
+        <method signature="TestScript_03.script06()[pri:0, instance:practice.TestScript_03@6d4e5011]" name="script06" class="practice.TestScript_03"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2023-01-16T17:15:58 IST" name="Test" finished-at="2023-01-16T17:15:58 IST" duration-ms="44">
+      <class name="practice.TestScript_03">
+        <test-method signature="script06()[pri:0, instance:practice.TestScript_03@6d4e5011]" started-at="2023-01-16T17:15:58 IST" name="script06" finished-at="2023-01-16T17:15:58 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- script06 -->
+      </class> <!-- practice.TestScript_03 -->
+      <class name="practice.TestScript_02">
+        <test-method signature="script03()[pri:0, instance:practice.TestScript_02@57d7f8ca]" started-at="2023-01-16T17:15:58 IST" name="script03" finished-at="2023-01-16T17:15:58 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- script03 -->
+        <test-method signature="script04()[pri:0, instance:practice.TestScript_02@57d7f8ca]" started-at="2023-01-16T17:15:58 IST" name="script04" finished-at="2023-01-16T17:15:58 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- script04 -->
+      </class> <!-- practice.TestScript_02 -->
+      <class name="practice.TestScript_01">
+        <test-method signature="script02()[pri:0, instance:practice.TestScript_01@67c33749]" started-at="2023-01-16T17:15:58 IST" name="script02" finished-at="2023-01-16T17:15:58 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- script02 -->
+      </class> <!-- practice.TestScript_01 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
